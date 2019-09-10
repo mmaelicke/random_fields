@@ -38,7 +38,7 @@ if __name__=='__main__':
     
     # create output folder if not exists
     if not os.path.exists(os.path.join(os.getcwd(), 'output')):
-        os.kdir(os.path.join(os.getcwd(), 'output'))
+        os.mkdir(os.path.join(os.getcwd(), 'output'))
     
     # for each case, create output and run
     for case in cases:
