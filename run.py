@@ -44,4 +44,4 @@ if __name__=='__main__':
     for case in cases:
         print('Running %s' % case)
         path = os.path.join(os.getcwd(), 'output', case)
-        run(load(path), os.path.splitext(path)[0])
+        run(load(os.path.join(os.getcwd(), case)), os.path.splitext(path)[0])
