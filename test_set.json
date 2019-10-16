@@ -4,6 +4,7 @@
         "y": 50
     },
     "fields_per_setting": 1,
+    "random_state": 42,
     "kernels": [
         "RationalQuadratic", 
         "WhiteKernel"
